@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <group android:checkableBehavior="single">
+
+        <item android:title="알림마당">
+            <menu>
+                <item
+                    android:id="@+id/notice"
+                    android:title="공지사항" />
+                <item
+                    android:id="@+id/news"
+                    android:title="뉴스" />
+            </menu>
+        </item>
+
+        <item
+            android:id="@+id/introduce"
+            android:title="대회소개" />
+
+
+        <item android:title="경기일정">
+            <menu>
+                <item
+                    android:id="@+id/game_date"
+                    android:title="날짜별" />
+                <item
+                    android:id="@+id/gmae_event"
+                    android:title="종목별" />
+            </menu>
+        </item>
+
+            <item
+                android:id="@+id/rank"
+                android:title="종합순위" />
+            <item
+                android:id="@+id/restaurant"
+                android:title="맛집,숙박" />
+        </group>
+
+
+
+</menu>
